@@ -1,0 +1,12 @@
+---
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: 3.10
+build:
+  requirementsPath: requirements.txt
+run:
+  scriptName: BOT_for_Andrey_BOT.py
+  persistenceMount: /data
+  containerPort: 80
